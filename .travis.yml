@@ -1,4 +1,7 @@
 language: c
+arch:
+ - amd64
+ - ppc64le
 sudo: required
 install: wget https://raw.githubusercontent.com/ocaml/ocaml-ci-scripts/master/.travis-opam.sh
 script: bash -ex .travis-opam.sh
